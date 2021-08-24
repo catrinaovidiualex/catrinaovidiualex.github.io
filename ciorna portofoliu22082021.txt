@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kenia&display=swap" rel="stylesheet">
+    <title>Alex Portofolio</title>
+</head>
+<body>
+    
+    <header>
+         <nav>
+                  <!--logo-->
+                  <a href="#" class="logo">
+                  <img src="img/logo.png"/>
+                  </a>
+                  <!--meniu-->
+                  <ul class="menu">
+                      <li><a href="#">About me</a></li>
+                      <li><a href="#">Skills</a></li>
+                      <li><a href="#">Projects</a></li>
+
+                  </ul>
+          </nav>
+    </header>  
+<!--main-->
+<main>
+    <section id="main1">
+     
+        <!--continut-->
+        <div class="continut">
+            <div class="model">
+                <img src="img/newme.jpg">
+                              
+            </div>   
+            
+                 <div class="main-text">
+                    <h1>Hi, I am Alex!</h1>
+                    <p>Welcome on my page!</p>
+                    <a href="https://www.linkedin.com/in/ovidiu-alexandru-catrina/" class="resume-btn">See my Resume</a>
+
+                 </div>
+        </div>
+
+    </section>
+
+    <section id="service" class="site-section section-services overlay text-center">
+        <div>
+            <h3>My background & experience</h3>
+            <img src="img/lines.svg" class="img-lines" alt="lines">
+        </div>
+        <div class="container-exp">
+            
+                
+                
+                    <div class="service">
+                        <img src="/img/front-end.jpg" class="svg-images" alt="Front End Developer">
+                        <h4>Front-end</h4>
+                        <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
+                    </div><!-- /.service -->
+                
+                
+                    <div class="service">
+                        <img src="/img/back-end.JPG" class="svg-images" alt="Back End Developer">
+                        <h4>Back-end</h4>
+                        <p>Utilising php frameworks such as Zend or creating bespoke code, I've written services supporting thousands of users, including REST APIs, e-learning applications and more.</p>
+                    </div><!-- /.service -->
+                
+                
+                    <div class="service">
+                        <img src="/img/consultancy.jpg" class="svg-images" alt="Coding">
+                        <h4>Consultancy</h4>
+                        <p>As well as providing development services, I can also help you decide strategic roadmaps via consultancy services.</p>
+                    </div><!-- /.service -->
+                
+            
+        </div>
+        
+    </section><!-- /.secton-services -->
+
+    <!--skills-->
+    <section id="skills">
+        <div class="skills-text">
+
+            <div class="skill-heading">
+                <span>Tech Skills</span>
+               
+
+            </div>
+            <div class="s-box-container"></div>
+
+        </div>
+       
+       
+        
+        <div class="page-wrap">
+                <div class="skill-img">
+                  <img src="img/skills.jpg"> 
+                </div>
+                 <div class="devskills">    
+                        <h2>DEV SKILLS</h2>
+                        
+                            <p>HTML</p>
+                            <div class="container">
+                            <div class="skills html">55%</div>
+                            </div>
+
+                            <p>CSS</p>
+                            <div class="container">
+                            <div class="skills css">50%</div>
+                            </div>
+
+                            <p>Java</p>
+                            <div class="container">
+                            <div class="skills java">60%</div>
+                            </div>
+
+                            <p>JS</p>
+                            <div class="container">
+                            <div class="skills js">45%</div>
+                            </div>
+
+                            <p>MySQL</p>
+                            <div class="container">
+                            <div class="skills sql">75%</div>
+                            </div>
+
+                            <p>SAP Crystal Reports</p>
+                            <div class="container">
+                            <div class="skills cs">70%</div>
+                            </div>
+                    </div>
+
+                
+          
+          
+          </div>
+        
+        </div>
+
+    </section>
+    
+       
+    
+    <section class="project_section">
+
+        
+            <div class="container">
+              <div class="heading_container">
+                <h2>
+                  My recent projects
+                </h2>
+              </div>
+              <div class="project_container">
+                <div class="box">
+                  <img src="img/p-7.jpg" alt="" />
+                </div>
+                <div class="box">
+                  <img src="img/p-7.jpg" alt="" />
+                </div>
+                <div class="box">
+                  <img src="img/p-7.jpg" alt="" />
+                </div>
+                <div class="box">
+                  <img src="img/p-7.jpg" alt="" />
+                </div>
+                <div class="box">
+                  <img src="img/p-7.jpg" alt="" />
+                </div>
+                <div class="box">
+                  <img src="img/p-7.jpg" alt="" />
+                </div>
+                
+              </div>
+            </div>
+         
+
+
+    </section>
+
+
+    <!-- contact starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> Contact <span> me: </span> </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img class="tilt" src="img/contactme.gif" alt="">
+        </div>
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" class="btn" value="send message">
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- contact ends -->
+
+</main> 
+<footer>
+    <section>
+        <ul id="services">
+         
+          <li>
+            <div class="facebook">
+              <a href="#">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </div>
+           
+          </li>
+         
+          <li>
+            <div class="youtube">
+              <a href="#">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+              </a>
+            </div>
+           
+          </li>
+          <li>
+            <div class="linkedin">
+              <a href="#">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+            
+          </li>
+         
+          <li>
+            <div class="github">
+              <a href="https://github.com/puikinsh/">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+           
+          </li>
+        </ul>
+
+        <img src="">
+        
+      </section>
+
+
+      <p>Copyright &copy; 2021 Alex's Portofolio</p>      
+
+</footer> 
+</body>
+</html>
+
+
+
+
+/*CSS*/
+
+*{ box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    font-family:poppins;
+    scroll-behavior:smooth;
+    width:100%;
+}
+header{
+    background-color:#f6f6f6;
+}
+header nav{
+    background-color:#f6f6f6;
+    background-size: cover;
+    width:100%;
+            
+}
+
+.menu {
+    width:90%;
+    padding:10px;
+    display:grid;
+}
+ul{
+    list-style: none;
+    width:100%;
+    
+}
+a{
+    text-decoration: none;
+}
+
+header nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.02);
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    z-index:1;
+    background-color:FFFFFF;
+    
+
+}
+
+
+.logo img {
+    width:100px;
+    height:100px;
+    float:left;
+    margin-left:10px;
+    
+}
+
+header nav ul {
+    display:flex;
+    width:100%;
+
+}
+
+header nav ul li a {
+    height:40px;
+    line-height: 43px;
+    margin:3px;
+    padding:0px 22px;
+    display:inline-block;
+    font-size:0.9rem;
+    text-transform:uppercase;
+    font-weight:500;
+    color:#0a0b5a;
+    /*letter-spacing:1px;*/
+    width:120px;
+}
+
+header nav ul li a:hover{
+    background-color:#3592e9;
+    color:#FFFFFF;
+    box-shadow: 5px 10px 30px rgba(10, 84, 223, 0.3);
+    transition: all ease 0.2s;
+}
+
+#main1{
+    width:100%;
+    height:100vh;
+    position: relative;
+
+}
+
+.model img {
+   margin-top:20%;
+    margin-left:20%;
+    width:35%;
+    height:35%;
+    max-width:40%;
+    max-height:20%;
+    /*object-fit: contain;*/
+   
+    
+    
+}
+.model{
+    width:100%;
+    height:500%;
+    /*display:inline;*/
+    
+    
+}
+
+main{
+    width:100%;
+}
+
+
+.continut{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+.main-text{
+    width:100%;
+    margin-left:20px;
+   
+    
+}
+.main-text h1 {
+    font-size:1.5rem;
+    color:#1c3548;
+    margin:0px 0px 10px 0px;
+    line-height: 60px;
+    width:100%;
+
+}
+.main-text p {
+    color:#747474;
+    font-size: 22px;
+    
+    
+}
+.resume-btn{
+    width:190px;
+    height:44px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:FFFFFF;
+    font-weight: bold;
+    background-color:#3592e9;
+    border-radius:20px;
+    box-shadow: 4px 10px 30px rgba(74, 138, 221, 0.2);
+}
+.resume-btn:hover{
+    background-color: #64aaf5;
+    transition: all ease 0.2s;
+}
+
+/*skills bar*/
+
+  
+  .page-wrap {
+    padding: 2em;
+    background-color: rgb(160, 208, 240);
+    width: 50%;
+    margin: 10 auto;
+    display:flex;
+    
+    
+  }
+ 
+  .page-wrap p {
+      font-weight: bold;
+  }
+  
+  /* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: rgb(163, 158, 158); 
+  }
+  
+  .skills {
+    text-align: right; 
+    margin-top:-15px;
+    padding-bottom: 5px;
+   
+    color: white; 
+    font-weight: bold;
+  }
+  
+  .html {width: 55%; background-color: #3c5ff7;} 
+  .css {width: 50%; background-color: #2196F3;} 
+  .java {width: 60%; background-color: rgb(45, 1, 241);}
+  .js {width: 45%; background-color: rgb(68, 111, 204);}
+  .sql {width:75%; background-color: #041561;} 
+  .cs {width:70%; background-color: #203b94;} 
+
+  .devskills{
+      
+      margin-left:10%;
+      height:80%;
+      display:inline-block;
+  }
+ 
+  #skills{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width:90%;
+      margin: auto auto 50px auto;
+
+  }
+
+  .skill-text{
+      width:400px;
+  }
+  .skill-img{
+      width:600px;
+      height: 600px;
+  }
+  
+  .skill-img img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.skill-heading span {
+    color:#035250;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+
+.heading_container {
+   
+    display: flex;
+    justify-content: center;
+    background-color: rgb(160, 208, 240);
+  }
+  
+  .heading_container h2 {
+    font-weight: bold;
+    color: #0616ad;
+    position: relative;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', cursive; 
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .heading_container h2::before {
+    content: "";
+    width: 75px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    
+    /*background-color: #1fd1fe;*/
+  }
+
+  .project_section .project_container {
+    
+    display: flex;
+    
+        flex-wrap: wrap;
+    
+            justify-content: center;
+
+            background-color: rgb(221, 248, 248);
+  }
+  
+  .project_section .project_container .box {
+    margin: 15px;
+   
+        flex-basis: 30.70%;
+    min-width: 250px;
+  }
+  
+  .project_section .project_container .box img {
+    width: 100%;
+  }
+
+
+  .box{
+    min-width: 225px;
+    min-height: 225px;
+    padding: 25px;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(160, 208, 240);
+  }
+
+  /*What I do section*/
+
+  .container-exp{
+      
+      
+      background-color: rgb(110, 193, 231); 
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width:90%;
+      margin: auto auto 80px auto;
+
+
+  }
+
+  .site-section {
+    padding-top: 90px;
+}
+
+	.site-section {
+        padding-top: 60px;
+     }
+ 
+     .section-skills,
+     
+     .section-form {
+         padding-bottom: 60px;
+     }
+ 
+     .site-section h2,
+     .site-section h3 {
+         font-size: 28px;
+         text-align: center;
+     }
+ 
+     .img-lines {
+         margin: 10px 0 30px;
+         width:100%;
+         height: 20px;
+         
+     }
+ 
+     .site-section p {
+         margin-bottom: 25px;
+     }
+     .site-section p.counter {
+		font-size: 80px;
+	}
+
+     .service h4 {
+		margin: 10px 0;
+        font-size: 22px; 
+	}
+
+    .section-services .container {
+		padding: 70px 90px;
+        width: 90%;
+		padding: 40px 20px;
+	}
+
+    .svg-images{
+        width:20%;
+        height: 20%;
+    }
+   
+
+
+  /*Footer section*/
+footer {
+   /*background-image: url("/img/footerpic.jpg");
+   background-size: cover;*/
+   background-image: url("/img/footerpicture2.png");
+   background-size: cover;
+    
+    width:100%;
+    margin:0;
+    
+}
+
+/*Contact */
+
+.contact .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.heading{
+    font-family: 'Kenia', cursive; 
+    text-align: center;
+}
+
+.contact .row .image{
+    flex:1 1 20rem;
+}
+
+.contact .row .image img{
+    width: 100%;
+   
+}
+
+.contact .row form{
+    flex:1 1 20rem;
+    padding:1rem 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    background:rgb(140, 154, 180);
+    
+    
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact .row form .inputBox input,
+.contact .row form .box,
+.contact .row form textarea{
+    width:100%;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    color:#333;
+    padding:1rem;
+    margin:1rem 0;
+    border:.1rem solid rgba(0,0,0,.1);
+    text-transform: none;
+}
+
+.contact .row form .inputBox input:focus,
+.contact .row form .box:focus,
+.contact .row form textarea:focus{
+    border-color: var(--green);
+}
+
+.contact .row form .inputBox input{
+    width:49%;
+}
+
+.contact .row form textarea{
+    height:20rem;
+    resize: none;
+}
+
+.contact .row form .btn{
+    margin:.5rem 0;
+}
+
+
+
+
+
+/*Footer*/
+
+footer p {
+    
+    margin-top:-20px;
+        
+    color: rgb(41, 134, 240);
+    font-size: 1.2em;
+    font-weight: bold;
+    
+    text-align: center;
+  }
+
+  
+  section #services {
+    text-align: center;
+    /*transform: translatez(0);*/
+  }
+ 
+  section #services li {
+    width: 5%;
+    height: 5%;
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+  }
+  section #services li div {
+    width: 50px;
+    height: 50px;
+    
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(121, 201, 233);
+    transition: all 0.9s ease;
+  }
+  section #services li a {
+    color: #3308f3;
+  }
+  section #services li div:hover {
+    transform: rotate(360deg);
+    border-radius: 100px;
+  }
+  ul#services{
+      width:90%;
+
+  }
+ 
+ 
+ 
